@@ -1,6 +1,9 @@
 import express  from "express";
+import cors from "cors";
 const app = express();
 const port = 8087;
+
+app.use (cors());
 
 var sabores = [
     "4 queijos",
